@@ -6,6 +6,7 @@
 
 read -p "Please enter new SPR version code (for example: V 03.03,V 03.07...)" SPR_VERSION
 echo New SPR Version code: $SPR_VERSION
+#FIXME: here it just can handle Sales release SPR update, can not support R&D version string.
 
 read -p "Please enter new date (for example: 10-05-12,03-04-12...)" SPR_DATE
 echo New SPR Date: $SPR_DATE
